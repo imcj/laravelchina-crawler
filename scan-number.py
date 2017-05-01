@@ -16,7 +16,7 @@ limit = 1024 * K
 exceptionIndex = 0
 # supervisord except exit code 0,2
 # http://supervisord.org/configuration.html
-os.mkdir('mkdir -p data/pages')
+os.system('mkdir -p data/pages')
 while True:
     url = "https://laravel-china.org/topics/%d" % i
 
